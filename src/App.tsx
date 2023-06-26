@@ -21,8 +21,8 @@ function App() {
         <Route path="/community-guidelines" element={<Community />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/terms-of-services" element={<Terms />} />
-        <Route path="/why-tarock-deleted-my-account" element={<Deleted />} />
-        <Route path="/why-tarock-paused-my-account" element={<Paused />} />
+        <Route path="/why-toksot-deleted-my-account" element={<Deleted />} />
+        <Route path="/why-toksot-paused-my-account" element={<Paused />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </>

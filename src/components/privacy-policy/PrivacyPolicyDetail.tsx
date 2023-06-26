@@ -165,7 +165,11 @@ function PrivacyPolicyDetail() {
           processing of your personal information. You may also object to the
           processing of your data, or request a copy of your personal
           information. To exercise your rights, please contact us at
-          <span className="text-sky-500"> “contact@toksot.com”</span>.
+          <span className="text-sky-500 hover:underline cursor-pointer">
+            {" "}
+            “contact@toksot.com”
+          </span>
+          .
         </li>
       </ul>
       <div>Complaints:</div>
@@ -224,8 +228,10 @@ function PrivacyPolicyDetail() {
         <li>
           If you have any questions, concerns, or requests regarding this
           Privacy Policy, please contact us at{" "}
-          <span className="text-sky-500">“contact@toksot.com”</span>. We will
-          respond to your requests within a reasonable time frame.
+          <span className="text-sky-500 hover:underline cursor-pointer">
+            “contact@toksot.com”
+          </span>
+          . We will respond to your requests within a reasonable time frame.
         </li>
       </ul>
     </div>
