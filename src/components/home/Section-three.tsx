@@ -11,7 +11,7 @@ function SectionThree() {
             className=" sm:h-[736px] sm:w-[354px] xs:w-full"
           />
         </div>
-        <div className="flex flex-col lg:col-span-3 gap-3 lg:text-left sm:text-center ">
+        <div className="flex flex-col lg:col-span-3  xl:col-span-4 gap-3 lg:text-left sm:text-center ">
           <h4 className="font-oswald xs:text-lg lg:text-2xl"> SuperTags</h4>
           <h1 className="font-oswald xl:text-7xl lg:text-5xl xs:text-5xl tracking-wide lg:leading-tight xs:leading-snug col-span-1 ">
             Make various types of communication with the type of people you
