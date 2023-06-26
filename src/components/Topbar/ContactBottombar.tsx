@@ -17,7 +17,7 @@ const ContactBottomBar = () => {
               <a href="terms-of-services">Terms</a>
             </button>
             <button className="mr-3 xl:mr-8">
-              <a href="/privacy-policy">Privacy</a> Policy
+              <a href="/privacy-policy">Privacy Policy</a>
             </button>
             <button className="mr-3 xl:mr-8">
               <a href="community-guidelines">Guidelines</a>
