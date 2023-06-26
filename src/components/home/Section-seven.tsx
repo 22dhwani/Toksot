@@ -3,31 +3,37 @@ import HeroImagenine from "../../assets/hero-image-nine.png";
 
 function SectionSeven() {
   return (
-    <section className="lg:pt-40 lg:pb-24 sm:py-32 xs:py-24 lg:px-28 xs:px-5  font-oswald bg-black text-white tracking-wider lg:leading-relaxed xs:leading-snug text-3xl ">
+    <section className="lg:pt-40 lg:pb-24 sm:py-32 xs:py-24 lg:px-20 xl:px-28 xs:px-5  font-oswald bg-black text-white tracking-wider lg:leading-relaxed xs:leading-snug text-3xl ">
       <div className="grid lg:grid-cols-6 xs:grid-cols-1 ">
-        <div className="col-span-2 xs:my-10 lg:my-0 lg:mx-0 sm:mx-auto">
-          <img src={HeroImageeight} className=" h-[736px] w-[354px]" />
+        <div className="xl:col-span-2 lg:col-span-3 xs:my-10 lg:my-0 sm:mx-auto">
+          <img
+            src={HeroImageeight}
+            className=" sm:h-[736px] sm:w-[354px] xs:w-full"
+          />
         </div>
-        <div className="flex flex-col col-span-4 gap-3 lg:text-left sm:text-center">
+        <div className="flex flex-col xl:col-span-4 lg:col-span-3 gap-3 lg:text-left sm:text-center">
           <h4 className="font-oswald xs:text-lg lg:text-2xl">Explore</h4>
-          <h1 className="font-oswald lg:text-7xl xs:text-5xl tracking-wide lg:leading-tight xs:leading-snug col-span-1 ">
+          <h1 className="font-oswald xl:text-7xl lg:text-6xl xs:text-5xl tracking-wide lg:leading-tight xs:leading-snug col-span-1 ">
             Explore endless photos of your interests.
           </h1>
         </div>
       </div>
       <div className="grid lg:grid-cols-6 xs:grid-cols-1 items-center lg:gap-10 sm:my-28">
-        <div className="flex flex-col col-span-4 gap-3 text-right xs:order-2 lg:order-1  lg:text-right sm:text-center">
+        <div className="flex flex-col xl:col-span-4 lg:col-span-3 gap-3 text-right xs:order-2 lg:order-1  lg:text-right sm:text-center">
           <h4 className="font-oswald xs:text-lg lg:text-2xl">
             {" "}
             Places / Topics
           </h4>
-          <h1 className="font-oswald lg:text-7xl xs:text-5xl tracking-wide lg:leading-tight xs:leading-snug col-span-1 ">
+          <h1 className="font-oswald xl:text-7xl lg:text-6xl xs:text-5xl tracking-wide lg:leading-tight xs:leading-snug col-span-1 ">
             See photos, follow, and join in a chat room of any location or
             topic.
           </h1>
         </div>
-        <div className="col-span-2 xs:my-10 lg:my-0 lg:!mt-[-40vh] xs:order-1 lg:order-2 lg:mx-0 sm:mx-auto">
-          <img src={HeroImagenine} className=" h-[736px] w-[354px]" />
+        <div className="xl:col-span-2 lg:col-span-3 xs:my-10 lg:my-0 lg:!mt-[-40vh] xs:order-1 lg:order-2 lg:mx-0 sm:mx-auto lg:ml-auto xl:ml-0">
+          <img
+            src={HeroImagenine}
+            className=" sm:h-[736px] sm:w-[354px] xs:w-full"
+          />
         </div>
       </div>
     </section>
