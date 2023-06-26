@@ -19,7 +19,7 @@ const BottomBar = () => {
 
             <button className="mr-3 xl:mr-8">
               {" "}
-              <a href="terms-of-servicesTerms">Terms </a>
+              <a href="terms-of-services">Terms </a>
             </button>
 
             <button className="mr-3 xl:mr-8">
