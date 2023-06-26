@@ -1,6 +1,6 @@
 function TermsDetail() {
   return (
-    <div className="lg:px-96 font-oswald xs:px-10 flex flex-col gap-6 pt-12">
+    <div className="lg:px-96 font-oswald font-medium tracking-wide xs:px-10 flex flex-col gap-6 pt-12">
       <div className="text-gray-400">Effective from 01 May 2023</div>
       <div>
         Welcome to our platform! These terms and conditions govern your use of
