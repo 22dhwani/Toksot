@@ -1,6 +1,6 @@
 function DeletedDetail() {
   return (
-    <div className="lg:px-96 font-oswald font-medium tracking-wide xs:px-10 flex flex-col gap-6 pt-12">
+    <div className="lg:px-60 font-oswald font-medium tracking-wide xs:px-10 flex flex-col gap-6 pt-12">
       <div>
         At TokSot, we value the safety, integrity, and positive user experience
         within our community. In order to maintain these standards, we may find

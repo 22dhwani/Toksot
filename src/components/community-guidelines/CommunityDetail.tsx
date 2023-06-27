@@ -1,6 +1,6 @@
 function CommunityDetail() {
   return (
-    <div className="lg:px-96 font-oswald font-medium tracking-wide xs:px-10 flex flex-col gap-6 pt-12">
+    <div className="lg:px-60 font-oswald font-medium tracking-wide xs:px-10 flex flex-col gap-6 pt-12">
       <div className="text-gray-400">Created on 01 May 2023</div>
       <div className="lg:w-full">
         Welcome to TokSot, a social network designed to connect people from all

@@ -1,9 +1,10 @@
-import logo from "../../assets/logo2.png";
-import download from "../../assets/downloadicon.svg";
+import download from "../../assets/downloadpack.png";
 // import { logoPack } from "../../assets/logo-pack";
 import JSZip from "jszip";
 import FileSaver from "file-saver";
 import { useState } from "react";
+import logopack from "../../assets/Logo pack.png";
+import packlogo from "../../assets/packlogo.png";
 
 function PressDetail() {
   const [check, setCheck] = useState(false);
@@ -44,7 +45,7 @@ function PressDetail() {
     });
   };
   return (
-    <div className="lg:px-96 font-oswald xs:px-10 flex flex-col gap-6 pt-12">
+    <div className="lg:px-60 font-oswald xs:px-10 flex flex-col gap-6 pt-12">
       <div className="lg:w-full">
         We’re grateful you have landed on this site. It makes us feel good and
         encourages us to make TokSot a more reliable and usable social network.
@@ -68,17 +69,21 @@ function PressDetail() {
         <div>For media queries, you can mail us on </div>
         <div className="text-sky-400">contact@toksot.com</div>
       </div>
-      <div className="bg-slate-100 sm:w-80 lg:w-2/5 h-64 rounded-lg mb-16">
+      <div className="bg-[#FCFCFC] sm:w-80 lg:w-4/7 h-48 rounded-lg mb-16">
         <div className="pt-5 pl-5">
-          <img src={logo}></img>
-          <div className="pt-3">Logo Pack</div>
-          <div className="pt-8 flex flex-row gap-6">
-            <input
-              type="checkbox"
-              checked={check}
-              onClick={() => setCheck(!check)}
-            />
-            <div className="w-5/6 text-gray-400 pb-8">
+          <img src={packlogo}></img>
+          <div className="pt-5">
+            <img src={logopack}></img>
+          </div>
+          <div className="pt-6 flex flex-row gap-3">
+            <div className="pt-3">
+              <input
+                type="checkbox"
+                checked={check}
+                onClick={() => setCheck(!check)}
+              />
+            </div>
+            <div className="text-gray-400 pb-3 text-xs">
               I hereby agree that I will use TokSot brand kit assets to
               affiliate TokSot with it and I have no personal or commercial
               rights.
@@ -86,12 +91,14 @@ function PressDetail() {
           </div>
         </div>
         {check && (
-          <div className="bg-slate-200 h-16 rounded-b-lg flex flex-row items-center px-10">
-            <div className="text-2xl">DOWNLOAD</div>
+          <div className="bg-[#F8F8F8] h-14 rounded-b-lg flex flex-row items-center px-10">
+            <div className="text-2xl">Download</div>
             <div className="ml-auto ">
-              <a onClick={handleDownloadClick} download={true}>
-                <img src={download}></img>
-              </a>
+              <button>
+                <a onClick={handleDownloadClick} download={true}>
+                  <img src={download}></img>
+                </a>
+              </button>
             </div>
           </div>
         )}

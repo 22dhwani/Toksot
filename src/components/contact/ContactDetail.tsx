@@ -2,7 +2,7 @@ import Rightarrow from "../../assets/right-arrow.svg";
 
 function ContactDetail() {
   return (
-    <div className="lg:px-96 font-oswald font-medium tracking-wide xs:px-10 flex flex-col gap-6 pt-12">
+    <div className="lg:px-60 font-oswald font-medium tracking-wide xs:px-10 flex flex-col gap-6 pt-12">
       <div>
         Looking for something we can help you with? You can reach to us at
         <div className="text-sky-400">contact@toksot.com</div>

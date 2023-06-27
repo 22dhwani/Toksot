@@ -1,4 +1,4 @@
-import topImage from "../../assets/topbarlogo.png";
+import topImage from "../../assets/header.svg";
 
 const Topbar = () => {
   return (
