@@ -10,7 +10,7 @@ function SectionEight() {
     <section className="bg-primaryGreen text-white lg:pt-14  lg:pb-14 xs:pt-6 lg:px-28 xl:px-36 xs:px-5 grid lg:grid-cols-2 xs:grid-cols-1 ">
       <div className="w-full lg:py-12 xs:py-6 lg:text-left sm:text-center flex flex-col justify-between">
         <h1 className="font-oswald lg:text-[4.75rem] xs:text-5xl tracking-wide lg:leading-tight xs:leading-snug ">
-          Ready to join TokSot?
+          Ready to join TokSot ?
         </h1>
         {(os === "unknown" || os === "Windows Phone") && (
           <div className="flex gap-5 my-10 w-full lg:mx-auto md:mx-auto ">
