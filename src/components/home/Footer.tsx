@@ -2,7 +2,7 @@ import ToksotLogo from "../../assets/toksotadminlog.png";
 
 function Footer() {
   return (
-    <section className="bg-black text-white lg:pt-40 xs:pb-24 xs:pt-24 lg:px-28 xs:px-5 ">
+    <section className="bg-black text-white lg:pt-40 xs:pb-24 xs:pt-24 lg:px-28 xl:px-36 xs:px-5 h-screen">
       <div className="flex w-full my-5  lg:gap-10 xs:gap-4 justify-center">
         <h6 className="font-oswald">
           <a href="/contact-us">Contact</a>
