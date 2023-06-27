@@ -1,5 +1,4 @@
 import ToksotLogo from "../../assets/toksotadminlog.png";
-import everyday from "../../assets/svg.svg";
 
 function Footer() {
   return (
