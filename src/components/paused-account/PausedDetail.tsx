@@ -1,6 +1,6 @@
 function PausedDetail() {
   return (
-    <div className="lg:px-96 font-oswald xs:px-10 flex flex-col gap-6 pt-12">
+    <div className="lg:px-96 font-oswald font-medium tracking-wide xs:px-10 flex flex-col gap-6 pt-12">
       <div>
         TokSot reserves the right to temporarily pause any account that violates
         our community guidelines.
