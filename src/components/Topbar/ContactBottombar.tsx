@@ -1,5 +1,5 @@
 import year from "../../assets/year.png";
-import logo from "../../assets/logo2.png";
+import logo from "../../assets/bottom-logo.svg";
 
 const ContactBottomBar = () => {
   return (
