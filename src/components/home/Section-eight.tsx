@@ -1,5 +1,5 @@
-import AppleBadge from "../../assets/app-badge.png";
-import GoogleBadge from "../../assets/google-badge.png";
+import AppleBadge from "../../assets/app-badge.svg";
+import GoogleBadge from "../../assets/google-badge.svg";
 import ToksotLogo from "../../assets/logo-big.png";
 
 function SectionEight() {
