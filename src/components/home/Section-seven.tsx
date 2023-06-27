@@ -8,12 +8,12 @@ function SectionSeven() {
         <div className="xl:col-span-2 lg:col-span-3 xs:my-10 lg:my-0 sm:mx-auto">
           <img
             src={HeroImageeight}
-            className=" sm:h-[736px] sm:w-[354px] xs:w-full"
+            className=" sm:h-[736px] sm:w-[354px] xs:w-full object-contain"
           />
         </div>
         <div className="flex flex-col xl:col-span-4 lg:col-span-3 gap-3 lg:text-left sm:text-center">
           <h4 className="font-oswald xs:text-lg lg:text-2xl">Explore</h4>
-          <h1 className="font-oswald xl:text-7xl lg:text-6xl xs:text-5xl tracking-wide lg:leading-tight xs:leading-snug col-span-1 ">
+          <h1 className="font-oswald xl:text-7xl lg:text-6xl xs:text-5xl tracking-wide xl:leading-tight xs:leading-snug col-span-1 ">
             Explore endless photos of your interests.
           </h1>
         </div>
@@ -24,7 +24,7 @@ function SectionSeven() {
             {" "}
             Places / Topics
           </h4>
-          <h1 className="font-oswald xl:text-7xl lg:text-6xl xs:text-5xl tracking-wide lg:leading-tight xs:leading-snug col-span-1 ">
+          <h1 className="font-oswald xl:text-7xl lg:text-6xl xs:text-5xl tracking-wide xl:leading-tight xs:leading-snug col-span-1 ">
             See photos, follow, and join in a chat room of any location or
             topic.
           </h1>
@@ -32,7 +32,7 @@ function SectionSeven() {
         <div className="xl:col-span-2 lg:col-span-3 xs:my-10 lg:my-0 lg:!mt-[-40vh] xs:order-1 lg:order-2 lg:mx-0 sm:mx-auto lg:ml-auto xl:ml-0">
           <img
             src={HeroImagenine}
-            className=" sm:h-[736px] sm:w-[354px] xs:w-full"
+            className=" sm:h-[736px] sm:w-[354px] xs:w-full object-contain"
           />
         </div>
       </div>
