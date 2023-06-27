@@ -5,9 +5,9 @@ function SectionFive() {
   return (
     <section className="lg:pt-40 lg:pb-24 sm:py-32 xs:py-24 lg:px-20 xl:px-28 xs:px-5  font-oswald bg-black text-white tracking-wider lg:leading-relaxed xs:leading-snug text-3xl ">
       <div className="grid lg:grid-cols-6 xs:grid-cols-1 lg:gap-10 items-start">
-        <div className="flex flex-col xl:col-span-4 lg:col-span-3 gap-3  xs:order-2 lg:order-1 lg:text-right sm:text-center xs:text-right pt-12">
+        <div className="flex flex-col xl:col-span-4 lg:col-span-3 gap-3  xs:order-2 lg:order-1 lg:text-right sm:text-center xs:text-right lg:pt-12">
           <h4 className="font-oswald xs:text-lg lg:text-2xl"> Chat</h4>
-          <h1 className="font-oswald xl:text-7xl lg:text-5xl xs:text-5xl tracking-wide lg:leading-snug xl:leading-tight xs:leading-snug  ">
+          <h1 className="font-oswald xl:text-[4.75rem] lg:text-5xl xs:text-5xl tracking-wide lg:leading-snug xl:leading-tight xs:leading-snug  ">
             Share and chat with your friends.
           </h1>
         </div>
@@ -27,7 +27,7 @@ function SectionFive() {
         </div>
         <div className="flex flex-col xl:col-span-4 lg:col-span-3 gap-3 lg:mt-[10vh] xs:mt-0 lg:text-left sm:text-center">
           <h4 className="font-oswald xs:text-lg lg:text-2xl"> Chat Rooms</h4>
-          <h1 className="font-oswald xl:text-7xl lg:text-5xl xs:text-5xl tracking-wide xl:leading-tight lg:leading-snug xs:leading-snug col-span-1 ">
+          <h1 className="font-oswald xl:text-[4.75rem] lg:text-5xl xs:text-5xl tracking-wide xl:leading-tight lg:leading-snug xs:leading-snug col-span-1 ">
             Open to join community chat rooms for every location and topic.
           </h1>
         </div>
