@@ -1,4 +1,4 @@
-import year from "../../assets/year.png";
+import year from "../../assets/logoyear.svg";
 import logo from "../../assets/bottom-logo.svg";
 
 const BottomBar = () => {
