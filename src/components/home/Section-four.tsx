@@ -10,7 +10,7 @@ function SectionFour() {
         />
       </div>
       <div className="w-full lg:py-12 xs:py-6 xl:col-span-4 lg:col-span-3 lg:text-left sm:text-center xs:order-1 lg:order-2 lg:mx-auto ">
-        <h1 className="font-oswald xl:text-[4.75rem] lg:text-6xl lg:w-4/6 xs:w-full xs:text-5xl tracking-wide xl:leading-tight lg:leading-snug xs:leading-snug">
+        <h1 className="font-oswald xl:text-[4.75rem] lg:text-[4rem] lg:w-4/6 xs:w-full xs:text-5xl tracking-wide xl:leading-tight lg:leading-snug xs:leading-snug">
           YOUR EVERYDAY COMMUNICATION SOLUTION.
         </h1>
       </div>

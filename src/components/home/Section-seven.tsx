@@ -18,7 +18,7 @@ function SectionSeven() {
           </h1>
         </div>
       </div>
-      <div className="grid lg:grid-cols-6 xs:grid-cols-1 items-center lg:gap-10 sm:my-28">
+      <div className="grid lg:grid-cols-6 xs:grid-cols-1 items-center lg:gap-10 xs:my-28">
         <div className="flex flex-col xl:col-span-4 lg:col-span-3 gap-3 text-right xs:order-2 lg:order-1  lg:text-right sm:text-center">
           <h4 className="font-oswald xs:text-lg lg:text-2xl">
             {" "}

@@ -18,7 +18,7 @@ function SectionFive() {
           />
         </div>
       </div>
-      <div className="grid lg:grid-cols-6 xs:grid-cols-1 items-center lg:gap-10 sm:my-28">
+      <div className="grid lg:grid-cols-6 xs:grid-cols-1 items-center lg:gap-10 xs:my-28">
         <div className="xl:col-span-2 lg:col-span-3 xs:my-10 lg:my-0 lg:!mt-[-40vh] xl:mx-auto lg:mx-0 sm:mx-auto">
           <img
             src={HeroImagefive}
