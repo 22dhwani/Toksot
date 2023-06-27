@@ -2,7 +2,7 @@ import ToksotLogo from "../../assets/toksotadminlog.png";
 
 function Footer() {
   return (
-    <section className="bg-black text-white lg:pt-40 xs:pb-24 xs:pt-24 lg:px-28 xl:px-36 xs:px-5 h-screen">
+    <section className="bg-black text-white flex md:justify-center xs:justify-start xs:py-10 md:py-0 items-center flex-col w-full lg:px-28 xl:px-36 xs:px-5 md:h-screen xs:h-[50vh]">
       <div className="flex w-full my-5  lg:gap-10 xs:gap-4 justify-center">
         <h6 className="font-oswald">
           <a href="/contact-us">Contact</a>
@@ -23,7 +23,7 @@ function Footer() {
           <a href="/community-guidelines"> Guidelines</a>
         </h6>
       </div>
-      <div>
+      <div className="w-full">
         <hr className="h-[4px] bg-white"></hr>
         <div className="flex w-full my-3">
           <div className="font-oswald"> © 2023 TokSot</div>
