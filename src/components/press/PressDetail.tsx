@@ -4,8 +4,10 @@ import JSZip from "jszip";
 import FileSaver from "file-saver";
 import logopack from "../../assets/presslogopack.svg";
 import packlogo from "../../assets/bottom-logo.svg";
+import { useState } from "react";
 
 function PressDetail() {
+  const [check, setCheck] = useState(false);
   const handleDownloadClick = () => {
     const zip = new JSZip();
     const folder = zip.folder("logo-pack");
@@ -77,7 +79,11 @@ function PressDetail() {
           </div>
           <div className="pt-10 flex flex-row gap-3">
             <div className="pt-3">
-              <input type="checkbox" />
+              <input
+                type="checkbox"
+                checked={check}
+                onClick={() => setCheck(!check)}
+              />
             </div>
             <div className="text-gray-400 pb-3 text-xs">
               I hereby agree that I will use TokSot brand kit assets to
@@ -91,7 +97,16 @@ function PressDetail() {
           <div className="text-2xl font-oswald">Download</div>
           <div className="ml-auto ">
             <button>
-              <a onClick={handleDownloadClick} download={true}>
+              <a
+                onClick={() => {
+                  if (check) {
+                    handleDownloadClick();
+                  } else {
+                    console.log("please click on the check box");
+                  }
+                }}
+                download={true}
+              >
                 <img src={download} className="w-8"></img>
               </a>
             </button>
