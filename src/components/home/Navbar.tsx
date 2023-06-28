@@ -1,5 +1,5 @@
 import ToksotLogo from "../../assets/TokSot-header-logo.svg";
-import Download from "../../assets/download.png";
+import Download from "../../assets/downloadd.svg";
 
 function Navbar() {
   return (
