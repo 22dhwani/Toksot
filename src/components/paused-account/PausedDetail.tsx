@@ -60,7 +60,10 @@ function PausedDetail() {
       </ul>
       <div>
         To gain a comprehensive understanding of our community guidelines, we
-        recommend reading our detailed guidelines.
+        recommend reading our detailed{" "}
+        <a href="/community-guidelines">
+          <span className="text-sky-500"> guidelines</span>.
+        </a>
       </div>
       <div>
         If you believe we have paused your account by mistake or you haven’t
