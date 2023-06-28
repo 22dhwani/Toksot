@@ -1,13 +1,11 @@
-import download from "../../assets/downloadpack.png";
+import download from "../../assets/pressdownload.svg";
 // import { logoPack } from "../../assets/logo-pack";
 import JSZip from "jszip";
 import FileSaver from "file-saver";
-import { useState } from "react";
 import logopack from "../../assets/presslogopack.svg";
 import packlogo from "../../assets/bottom-logo.svg";
 
 function PressDetail() {
-  const [check, setCheck] = useState(false);
   const handleDownloadClick = () => {
     const zip = new JSZip();
     const folder = zip.folder("logo-pack");
@@ -71,19 +69,15 @@ function PressDetail() {
           <div className="text-sky-500"> contact@toksot.com</div>
         </a>
       </div>
-      <div className="bg-[#FCFCFC] sm:w-80 lg:w-4/7 h-48 rounded-lg mt-16 mb-10">
+      <div className="bg-[#FCFCFC] sm:w-80 lg:w-4/7 h-48 rounded-lg mt-16">
         <div className="pt-5 pl-5">
           <img src={packlogo}></img>
           <div className="pt-5">
             <img src={logopack}></img>
           </div>
-          <div className="pt-6 flex flex-row gap-3">
+          <div className="pt-10 flex flex-row gap-3">
             <div className="pt-3">
-              <input
-                type="checkbox"
-                checked={check}
-                onClick={() => setCheck(!check)}
-              />
+              <input type="checkbox" />
             </div>
             <div className="text-gray-400 pb-3 text-xs">
               I hereby agree that I will use TokSot brand kit assets to
@@ -92,18 +86,17 @@ function PressDetail() {
             </div>
           </div>
         </div>
-        {check && (
-          <div className="bg-[#F8F8F8] h-14 rounded-b-lg flex flex-row items-center px-4">
-            <div className="text-2xl font-oswald">Download</div>
-            <div className="ml-auto ">
-              <button>
-                <a onClick={handleDownloadClick} download={true}>
-                  <img src={download}></img>
-                </a>
-              </button>
-            </div>
+
+        <div className="bg-[#F8F8F8] h-14 rounded-b-lg flex flex-row items-center px-4">
+          <div className="text-2xl font-oswald">Download</div>
+          <div className="ml-auto ">
+            <button>
+              <a onClick={handleDownloadClick} download={true}>
+                <img src={download} className="w-8"></img>
+              </a>
+            </button>
           </div>
-        )}
+        </div>
       </div>
     </div>
   );
