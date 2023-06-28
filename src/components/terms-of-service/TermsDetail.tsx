@@ -112,7 +112,9 @@ function TermsDetail() {
           using our platform, you agree to the terms of our privacy policy.
         </li>
       </ul>
-      <div className="text-sky-500">PRIVACY POLICY</div>
+      <div className="text-sky-500">
+        <a href="/privacy-policy">PRIVACY POLICY</a>
+      </div>
       <div className="font-oswald">Community Guidelines:</div>
       <ul className="list-disc pl-6">
         <li>
@@ -125,7 +127,9 @@ function TermsDetail() {
           rights and dignity of others.
         </li>
       </ul>
-      <div className="text-sky-500">COMMUNITY GUIDELINES</div>
+      <div className="text-sky-500">
+        <a href="/community-guidelines">COMMUNITY GUIDELINES</a>
+      </div>
       <div className="font-oswald">User Conduct:</div>
       <ul className="list-disc pl-6">
         <li>
@@ -254,7 +258,9 @@ function TermsDetail() {
         <li>
           If you have any questions or concerns about these terms and conditions
           or our platform, please contact us at{" "}
-          <span className="text-sky-500">“contact@toksot.com”.</span>
+          <a href="mailto:contact@toksot.com">
+            <span className="text-sky-500">“contact@toksot.com”.</span>{" "}
+          </a>
         </li>
       </ul>
     </div>

@@ -5,7 +5,9 @@ function ContactDetail() {
     <div className="lg:px-60 font-oswald-light font-medium tracking-normal xs:px-10  pt-24">
       <div>
         Looking for something we can help you with? You can reach to us at
-        <div className="text-sky-500">contact@toksot.com</div>
+        <a href="mailto:contact@toksot.com">
+          <div className="text-sky-500">contact@toksot.com</div>
+        </a>
       </div>
       <div className="mt-10 ">We’ll make sure you get faster reply.</div>
       <div className="flex flex-col gap-2">
