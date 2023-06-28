@@ -45,7 +45,7 @@ function PressDetail() {
     });
   };
   return (
-    <div className="lg:px-60 font-oswald-light xs:px-10 flex flex-col gap-6 pt-24">
+    <div className="lg:px-60 font-oswald-light xs:px-10  tracking-normal flex flex-col gap-6 pt-24">
       <div className="lg:w-full">
         We’re grateful you have landed on this site. It makes us feel good and
         encourages us to make TokSot a more reliable and usable social network.
