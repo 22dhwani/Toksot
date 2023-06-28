@@ -3,8 +3,8 @@ import download from "../../assets/downloadpack.png";
 import JSZip from "jszip";
 import FileSaver from "file-saver";
 import { useState } from "react";
-import logopack from "../../assets/Logo pack.png";
-import packlogo from "../../assets/packlogo.png";
+import logopack from "../../assets/presslogopack.svg";
+import packlogo from "../../assets/bottom-logo.svg";
 
 function PressDetail() {
   const [check, setCheck] = useState(false);
@@ -69,7 +69,7 @@ function PressDetail() {
         <div>For media queries, you can mail us on </div>
         <div className="text-sky-500">contact@toksot.com</div>
       </div>
-      <div className="bg-[#FCFCFC] sm:w-80 lg:w-4/7 h-48 rounded-lg mb-16">
+      <div className="bg-[#FCFCFC] sm:w-80 lg:w-4/7 h-48 rounded-lg mt-16 mb-10">
         <div className="pt-5 pl-5">
           <img src={packlogo}></img>
           <div className="pt-5">

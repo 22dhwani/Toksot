@@ -3,9 +3,9 @@ import logo from "../../assets/bottom-logo.svg";
 
 const ContactBottomBar = () => {
   return (
-    <div className="fixed bottom-0 z-50 w-full lg:h-12 sm:h-20 bg-[#F8F8F8] dark:bg-gray-700 dark:border-gray-600">
+    <div className="absolute bottom-0 z-50 w-full lg:h-12 sm:h-20 bg-[#F8F8F8] dark:bg-gray-700 dark:border-gray-600">
       <div className="flex flex-col md:flex-row md:items-center lg:mt-3 lg:ml-60 md:ml-20 xs:pt-3 lg:pt-0">
-        <div className="flex flex-row justify-center md:order-2 md:justify-start h-full max-w-lg mx-auto font-oswald font-medium tracking-wide">
+        <div className="flex flex-row justify-center md:order-2 md:justify-start h-full max-w-lg mx-auto font-oswald-light">
           <div>
             <button className="mr-3 xl:mr-8">
               <a href="/contact-us">Contact</a>

@@ -3,9 +3,9 @@ import logo from "../../assets/bottom-logo.svg";
 
 const BottomBar = () => {
   return (
-    <div className="md:fixed md:bottom-0 lg:relative z-50 w-full lg:h-12 sm:h-20 bg-[#F8F8F8] dark:bg-gray-700 dark:border-gray-600">
+    <div className="md:fixed md:bottom-0 lg:relative z-50 w-full lg:h-12 sm:h-20 bg-[#fcfcfc] dark:bg-gray-700 dark:border-gray-600">
       <div className="flex flex-col md:flex-row md:items-center lg:mt-8 lg:ml-60 md:ml-20 xs:pt-3 lg:pt-2">
-        <div className="flex flex-row justify-center md:order-2 md:justify-start h-full max-w-lg mx-auto font-oswald font-medium tracking-wide">
+        <div className="flex flex-row justify-center md:order-2 md:justify-start h-full max-w-lg mx-auto  font-oswald-light">
           <div>
             <button className="mr-3 xl:mr-8">
               {" "}

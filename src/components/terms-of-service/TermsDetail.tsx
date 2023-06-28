@@ -1,6 +1,6 @@
 function TermsDetail() {
   return (
-    <div className="lg:px-60 font-oswald-light font-medium tracking-wide xs:px-10 flex flex-col gap-6 pt-12">
+    <div className="lg:px-60 font-oswald-light font-medium tracking-wide xs:px-10 flex flex-col gap-6 pt-24">
       <div className="flex flex-col gap-3">
         <div className="text-gray-400">Effective from 01 May 2023</div>
         <div>
