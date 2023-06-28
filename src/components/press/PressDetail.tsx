@@ -69,7 +69,7 @@ function PressDetail() {
           <div className="text-sky-500"> contact@toksot.com</div>
         </a>
       </div>
-      <div className="bg-[#FCFCFC] sm:w-80 lg:w-4/7 h-48 rounded-lg mt-16">
+      <div className="bg-[#FCFCFC] sm:w-80 lg:w-4/7 h-48 rounded-lg my-16">
         <div className="pt-5 pl-5">
           <img src={packlogo}></img>
           <div className="pt-5">
