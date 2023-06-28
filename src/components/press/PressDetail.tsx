@@ -45,7 +45,7 @@ function PressDetail() {
     });
   };
   return (
-    <div className="lg:px-60 font-oswald xs:px-10 flex flex-col gap-6 pt-12">
+    <div className="lg:px-60 font-oswald-light xs:px-10 flex flex-col gap-6 pt-24">
       <div className="lg:w-full">
         We’re grateful you have landed on this site. It makes us feel good and
         encourages us to make TokSot a more reliable and usable social network.
@@ -67,7 +67,7 @@ function PressDetail() {
           suggestions.{" "}
         </div>
         <div>For media queries, you can mail us on </div>
-        <div className="text-sky-400">contact@toksot.com</div>
+        <div className="text-sky-500">contact@toksot.com</div>
       </div>
       <div className="bg-[#FCFCFC] sm:w-80 lg:w-4/7 h-48 rounded-lg mb-16">
         <div className="pt-5 pl-5">
@@ -91,8 +91,8 @@ function PressDetail() {
           </div>
         </div>
         {check && (
-          <div className="bg-[#F8F8F8] h-14 rounded-b-lg flex flex-row items-center px-10">
-            <div className="text-2xl">Download</div>
+          <div className="bg-[#F8F8F8] h-14 rounded-b-lg flex flex-row items-center px-4">
+            <div className="text-2xl font-oswald">Download</div>
             <div className="ml-auto ">
               <button>
                 <a onClick={handleDownloadClick} download={true}>

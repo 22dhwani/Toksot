@@ -7,6 +7,12 @@
 }
 .font-oswald {
   font-family: "Oswald", sans-serif;
+  font-weight: 600;
+}
+
+.font-oswald-light{
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
 }
 input[type="checkbox"] {
   accent-color: #1a1b1c;
