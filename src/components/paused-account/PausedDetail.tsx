@@ -66,7 +66,7 @@ function PausedDetail() {
         If you believe we have paused your account by mistake or you haven’t
         violated our community guidelines, you may contact us on
         <a href="mailto:contact@toksot.com">
-          <span className="text-sky-500">contact@toksot.com</span>
+          <span className="text-sky-500"> contact@toksot.com</span>
         </a>
       </div>
     </div>

@@ -259,7 +259,7 @@ function TermsDetail() {
           If you have any questions or concerns about these terms and conditions
           or our platform, please contact us at{" "}
           <a href="mailto:contact@toksot.com">
-            <span className="text-sky-500">“contact@toksot.com”.</span>{" "}
+            <span className="text-sky-500"> “contact@toksot.com”.</span>{" "}
           </a>
         </li>
       </ul>

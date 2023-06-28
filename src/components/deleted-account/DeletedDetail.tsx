@@ -57,13 +57,15 @@ function DeletedDetail() {
       <div>
         To gain a comprehensive understanding of our community guidelines, we
         recommend reading our detailed
-        <span className="text-sky-500"> guidelines</span>.
+        <a href="/community-guidelines">
+          <span className="text-sky-500"> guidelines</span>.
+        </a>
       </div>
       <div>
         If you believe your account has been deleted in error or have any
         questions regarding our account deletion policy, please mail us on
         <a href="mailto:contact@toksot.com">
-          <span className="text-sky-500">contact@toksot.com</span>.
+          <span className="text-sky-500"> contact@toksot.com</span>.
         </a>{" "}
         We are here to help and address any concerns you may have.
       </div>

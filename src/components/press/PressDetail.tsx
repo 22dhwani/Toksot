@@ -68,7 +68,7 @@ function PressDetail() {
         </div>
         <div>For media queries, you can mail us on </div>
         <a href="mailto:contact@toksot.com">
-          <div className="text-sky-500">contact@toksot.com</div>
+          <div className="text-sky-500"> contact@toksot.com</div>
         </a>
       </div>
       <div className="bg-[#FCFCFC] sm:w-80 lg:w-4/7 h-48 rounded-lg mt-16 mb-10">
