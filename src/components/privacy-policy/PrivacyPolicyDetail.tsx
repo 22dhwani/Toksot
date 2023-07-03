@@ -1,13 +1,15 @@
 function PrivacyPolicyDetail() {
   return (
-    <div className="lg:px-96 font-oswald font-medium tracking-wide xs:px-10 flex flex-col gap-6 pt-12">
-      <div className="text-gray-400">Effective from 01 May 2023</div>
-      <div>
-        Thank you for using TokSot, a social network that respects your privacy.
-        This Privacy Policy outlines how we collect, use, and protect your
-        personal information.
+    <div className="lg:px-60 font-oswald-light font-medium tracking-wide xs:px-10 flex flex-col gap-6 pt-24">
+      <div className="flex flex-col gap-3">
+        <div className="text-gray-400">Effective from 01 May 2023</div>
+        <div>
+          Thank you for using TokSot, a social network that respects your
+          privacy. This Privacy Policy outlines how we collect, use, and protect
+          your personal information.
+        </div>
       </div>
-      <div>Types of data collected:</div>
+      <div className="font-oswald">Types of data collected:</div>
       <ul className="list-disc pl-10 flex flex-col gap-6">
         <li>We collect the following types of data from our users:</li>
         <ul className="list-disc pl-6">
@@ -26,7 +28,7 @@ function PrivacyPolicyDetail() {
           <li>Location Information: GPS, Wi-Fi, and IP address.</li>
         </ul>
       </ul>
-      <div>How data is collected:</div>
+      <div className="font-oswald">How data is collected:</div>
       <ul className="list-disc pl-10 flex flex-col gap-6">
         <li>We collect data through the following means:</li>
         <ol className="list-decimal pl-6">
@@ -38,7 +40,7 @@ function PrivacyPolicyDetail() {
           <li>From cookies and similar tracking technologies.</li>
         </ol>
       </ul>
-      <div>Legal basis for collection:</div>
+      <div className="font-oswald">Legal basis for collection:</div>
       <ul className="list-disc pl-6">
         <li>
           We collect your personal information with your consent or where it is
@@ -46,7 +48,7 @@ function PrivacyPolicyDetail() {
           obligations, or for our legitimate interests.
         </li>
       </ul>
-      <div>Specific purpose for data collection:</div>
+      <div className="font-oswald">Specific purpose for data collection:</div>
       <ul className="list-disc pl-10">
         <li>We collect data for the following purposes:</li>
         <ul className="list-disc pl-10">
@@ -62,7 +64,7 @@ function PrivacyPolicyDetail() {
           </li>
         </ul>
       </ul>
-      <div>Type of personal information:</div>
+      <div className="font-oswald">Type of personal information:</div>
       <ul className="list-disc pl-10">
         <li>
           We collect personal information such as name, email, phone number,
@@ -71,7 +73,7 @@ function PrivacyPolicyDetail() {
           beliefs, with your explicit consent.
         </li>
       </ul>
-      <div>Cookies:</div>
+      <div className="font-oswald">Cookies:</div>
       <ul className="list-disc pl-10">
         <li>
           We use cookies and similar tracking technologies to collect usage
@@ -81,14 +83,16 @@ function PrivacyPolicyDetail() {
           device settings.
         </li>
       </ul>
-      <div>No tracking in other apps and websites:</div>
+      <div className="font-oswald">No tracking in other apps and websites:</div>
       <ul className="list-disc pl-10">
         <li>
           We do not track your activity on other apps or websites. Our tracking
           and data collection are limited to the use of our app only.
         </li>
       </ul>
-      <div>Compliance with Indian IT act, GDPR, CCPA, and COPPA:</div>
+      <div className="font-oswald">
+        Compliance with Indian IT act, GDPR, CCPA, and COPPA:
+      </div>
       <ul className="list-disc pl-10">
         <li>
           We comply with Indian IT act, GDPR, CCPA, and COPPA. We respect your
@@ -97,7 +101,7 @@ function PrivacyPolicyDetail() {
           information or object to the processing of your data.
         </li>
       </ul>
-      <div>Data retention:</div>
+      <div className="font-oswald">Data retention:</div>
       <ul className="list-disc pl-10">
         <li>
           We retain your personal information for as long as necessary to
@@ -106,7 +110,7 @@ function PrivacyPolicyDetail() {
           backups, for a limited period of time.
         </li>
       </ul>
-      <div>Data security:</div>
+      <div className="font-oswald">Data security:</div>
       <ul className="list-disc pl-10">
         <li>
           We take reasonable measures to protect your personal information from
@@ -115,7 +119,7 @@ function PrivacyPolicyDetail() {
           100% foolproof, and we cannot guarantee the security of your data.
         </li>
       </ul>
-      <div>Third-party disclosure:</div>
+      <div className="font-oswald">Third-party disclosure:</div>
       <ul className="list-disc pl-10">
         <li>
           We do not sell, rent, or share your personal information with third
@@ -124,7 +128,7 @@ function PrivacyPolicyDetail() {
           or with law enforcement agencies to comply with legal obligations.
         </li>
       </ul>
-      <div>Children's privacy:</div>
+      <div className="font-oswald">Children's privacy:</div>
       <ul className="list-disc pl-10">
         <li>
           We do not knowingly collect personal information from children under
@@ -133,7 +137,7 @@ function PrivacyPolicyDetail() {
           immediately.
         </li>
       </ul>
-      <div>Cross-border data transfer:</div>
+      <div className="font-oswald">Cross-border data transfer:</div>
       <ul className="list-disc pl-10">
         <li>
           We may transfer your personal information to countries outside of your
@@ -141,14 +145,14 @@ function PrivacyPolicyDetail() {
           comply with applicable laws and regulations.
         </li>
       </ul>
-      <div>Opt-out:</div>
+      <div className="font-oswald">Opt-out:</div>
       <ul className="list-disc pl-10">
         <li>
           You may opt-out of receiving promotional emails or notifications from
           us by following the instructions in the email or notification.
         </li>
       </ul>
-      <div>Third-party links:</div>
+      <div className="font-oswald">Third-party links:</div>
       <ul className="list-disc pl-10">
         <li>
           Our services may contain links to third-party websites or services
@@ -158,21 +162,23 @@ function PrivacyPolicyDetail() {
           personal information.
         </li>
       </ul>
-      <div>Your rights:</div>
+      <div className="font-oswald">Your rights:</div>
       <ul className="list-disc pl-10">
         <li>
           You have the right to access, rectify, delete, or restrict the
           processing of your personal information. You may also object to the
           processing of your data, or request a copy of your personal
           information. To exercise your rights, please contact us at
-          <span className="text-sky-500 hover:underline cursor-pointer">
-            {" "}
-            “contact@toksot.com”
-          </span>
+          <a href="mailto:contact@toksot.com">
+            <span className="text-sky-500 hover:underline cursor-pointer">
+              {" "}
+              “contact@toksot.com”
+            </span>
+          </a>
           .
         </li>
       </ul>
-      <div>Complaints:</div>
+      <div className="font-oswald">Complaints:</div>
       <ul className="list-disc pl-10">
         <li>
           If you believe that we have violated your privacy rights, you have the
@@ -180,7 +186,7 @@ function PrivacyPolicyDetail() {
           authority.
         </li>
       </ul>
-      <div>Consent:</div>
+      <div className="font-oswald">Consent:</div>
       <ul className="list-disc pl-10">
         <li>
           By using our services, you consent to the collection, use, and
@@ -188,7 +194,7 @@ function PrivacyPolicyDetail() {
           Policy.
         </li>
       </ul>
-      <div>Severability:</div>
+      <div className="font-oswald">Severability:</div>
       <ul className="list-disc pl-10">
         <li>
           If any provision of this Privacy Policy is found to be invalid,
@@ -196,7 +202,7 @@ function PrivacyPolicyDetail() {
           full force and effect.
         </li>
       </ul>
-      <div>Governing law:</div>
+      <div className="font-oswald">Governing law:</div>
       <ul className="list-disc pl-10">
         <li>
           This Privacy Policy is governed by and construed in accordance with
@@ -205,7 +211,7 @@ function PrivacyPolicyDetail() {
           accordance with the Indian Arbitration and Conciliation Act, 1996.
         </li>
       </ul>
-      <div>Entire agreement:</div>
+      <div className="font-oswald">Entire agreement:</div>
       <ul className="list-disc pl-10">
         <li>
           This Privacy Policy constitutes the entire agreement between you and
@@ -213,7 +219,7 @@ function PrivacyPolicyDetail() {
           personal information.
         </li>
       </ul>
-      <div>Changes to the privacy policy:</div>
+      <div className="font-oswald">Changes to the privacy policy:</div>
       <ul className="list-disc pl-10">
         <li>
           We reserve the right to update or modify this Privacy Policy at any
@@ -223,15 +229,18 @@ function PrivacyPolicyDetail() {
           Privacy Policy.
         </li>
       </ul>
-      <div>Contact us:</div>
+      <div className="font-oswald">Contact us:</div>
       <ul className="list-disc pl-10">
         <li>
           If you have any questions, concerns, or requests regarding this
           Privacy Policy, please contact us at{" "}
-          <span className="text-sky-500 hover:underline cursor-pointer">
-            “contact@toksot.com”
-          </span>
-          . We will respond to your requests within a reasonable time frame.
+          <a href="mailto:contact@toksot.com">
+            <span className="text-sky-500 hover:underline cursor-pointer">
+              “contact@toksot.com”
+            </span>
+            .
+          </a>{" "}
+          We will respond to your requests within a reasonable time frame.
         </li>
       </ul>
     </div>

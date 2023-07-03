@@ -1,21 +1,23 @@
 function CommunityDetail() {
   return (
-    <div className="lg:px-96 font-oswald font-medium tracking-wide xs:px-10 flex flex-col gap-6 pt-12">
-      <div className="text-gray-400">Created on 01 May 2023</div>
-      <div className="lg:w-full">
-        Welcome to TokSot, a social network designed to connect people from all
-        around the world. We are excited to have you as part of our community
-        and we want to make sure that your experience on our platform is safe,
-        enjoyable, and productive. To achieve this, we have established
-        community guidelines to help you understand what is expected of you
-        while using our platform. Our guidelines are designed to promote
-        kindness, respect, and inclusivity among our users, while also ensuring
-        that everyone follows our rules for sharing content. Please take some
-        time to review our guidelines and help us maintain a positive and
-        productive environment for all users.
+    <div className="lg:px-60 font-oswald-light font-medium xs:px-10  pt-24">
+      <div className="flex flex-col gap-3">
+        <div className="text-gray-400">Created on 01 May 2023</div>
+        <div className="lg:w-full">
+          Welcome to TokSot, a social network designed to connect people from
+          all around the world. We are excited to have you as part of our
+          community and we want to make sure that your experience on our
+          platform is safe, enjoyable, and productive. To achieve this, we have
+          established community guidelines to help you understand what is
+          expected of you while using our platform. Our guidelines are designed
+          to promote kindness, respect, and inclusivity among our users, while
+          also ensuring that everyone follows our rules for sharing content.
+          Please take some time to review our guidelines and help us maintain a
+          positive and productive environment for all users.
+        </div>
       </div>
-      <div className="flex flex-col gap-6">
-        <div>Photo Sharing:</div>
+      <div className="flex flex-col gap-6 pt-6">
+        <div className="font-oswald">Photo Sharing:</div>
         <ul className="list-disc pl-6 flex flex-col gap-6">
           <li>TokSot allows all users to share photos on the platform.</li>
           <li>
@@ -169,7 +171,7 @@ function CommunityDetail() {
             </li>
           </ul>
         </ul>
-        <div>Messaging:</div>
+        <div className="font-oswald">Messaging:</div>
         <ul className="list-disc pl-6">
           <li>Users can chat with people they know or may know:</li>
           <ul className="list-disc pl-6">
@@ -304,7 +306,7 @@ function CommunityDetail() {
             </li>
           </ul>
         </ul>
-        <div>Chat Rooms:</div>
+        <div className="font-oswald">Chat Rooms:</div>
         <ul className="list-disc pl-6">
           <li>
             TokSot auto-generates a chat room for every location and hashtag to
@@ -343,7 +345,7 @@ function CommunityDetail() {
             members of the chat room, and your username is attached to them.
           </li>
         </ul>
-        <div>Profile:</div>
+        <div className="font-oswald">Profile:</div>
         <ul className="list-disc pl-6">
           <li>
             Users have the option to make their profiles public or private. If
@@ -389,7 +391,7 @@ function CommunityDetail() {
             environment for all users.
           </li>
         </ul>
-        <div>Safety:</div>
+        <div className="font-oswald">Safety:</div>
         <ul className="list-disc pl-6">
           <li>Report any inappropriate post to TokSot:</li>
           <ul className="list-disc pl-6">
@@ -468,7 +470,7 @@ function CommunityDetail() {
             </li>
           </ul>
         </ul>
-        <div>General:</div>
+        <div className="font-oswald">General:</div>
         <ul className="list-disc pl-6">
           <li>
             TokSot is a platform for sharing photos and communication. Please
@@ -482,7 +484,7 @@ function CommunityDetail() {
             number, or financial information, with other users.
           </li>
         </ul>
-        <div>Age Restrictions:</div>
+        <div className="font-oswald">Age Restrictions:</div>
         <ul className="list-disc pl-6">
           <li>
             Users must be 13 years of age or older to use TokSot. Users under
@@ -493,7 +495,7 @@ function CommunityDetail() {
             before using the app.
           </li>
         </ul>
-        <div>Actions:</div>
+        <div className="font-oswald">Actions:</div>
         <ul className="list-disc pl-6">
           <li>Account Suspension or Deletion:</li>
           <ul className="list-disc pl-6">
@@ -545,7 +547,7 @@ function CommunityDetail() {
             </li>
           </ul>
         </ul>
-        <div>Changes to Guidelines:</div>
+        <div className="font-oswald">Changes to Guidelines:</div>
         <ul className="list-disc pl-6">
           <li>
             TokSot reserves the right to modify its community guidelines at any

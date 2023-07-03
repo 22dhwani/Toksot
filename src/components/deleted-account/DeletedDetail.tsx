@@ -1,6 +1,6 @@
 function DeletedDetail() {
   return (
-    <div className="lg:px-96 font-oswald font-medium tracking-wide xs:px-10 flex flex-col gap-6 pt-12">
+    <div className="lg:px-60 font-oswald-light tracking-normal xs:px-10 flex flex-col gap-6 pt-24">
       <div>
         At TokSot, we value the safety, integrity, and positive user experience
         within our community. In order to maintain these standards, we may find
@@ -57,13 +57,17 @@ function DeletedDetail() {
       <div>
         To gain a comprehensive understanding of our community guidelines, we
         recommend reading our detailed
-        <span className="text-sky-500"> guidelines</span>.
+        <a href="/community-guidelines">
+          <span className="text-sky-500"> guidelines</span>.
+        </a>
       </div>
       <div>
         If you believe your account has been deleted in error or have any
         questions regarding our account deletion policy, please mail us on
-        <span className="text-sky-500"> contact@toksot.com</span>. We are here
-        to help and address any concerns you may have.
+        <a href="mailto:contact@toksot.com">
+          <span className="text-sky-500"> contact@toksot.com</span>.
+        </a>{" "}
+        We are here to help and address any concerns you may have.
       </div>
     </div>
   );

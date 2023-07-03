@@ -1,13 +1,15 @@
 function TermsDetail() {
   return (
-    <div className="lg:px-96 font-oswald font-medium tracking-wide xs:px-10 flex flex-col gap-6 pt-12">
-      <div className="text-gray-400">Effective from 01 May 2023</div>
-      <div>
-        Welcome to our platform! These terms and conditions govern your use of
-        our platform, and by using our platform, you agree to be bound by these
-        terms and conditions.
+    <div className="lg:px-60 font-oswald-light font-medium tracking-wide xs:px-10 flex flex-col gap-6 pt-24">
+      <div className="flex flex-col gap-3">
+        <div className="text-gray-400">Effective from 01 May 2023</div>
+        <div>
+          Welcome to our platform! These terms and conditions govern your use of
+          our platform, and by using our platform, you agree to be bound by
+          these terms and conditions.
+        </div>
       </div>
-      <div>User Content:</div>
+      <div className="font-oswald">User Content:</div>
       <ul className="list-disc pl-6">
         <li>
           Our platform allows you to capture and share photos. By uploading
@@ -18,7 +20,7 @@ function TermsDetail() {
           offensive, obscene, or harmful in any way.
         </li>
       </ul>
-      <div>User Interaction:</div>
+      <div className="font-oswald">User Interaction:</div>
       <ul className="list-disc pl-6">
         <li>
           Our platform allows users to interact with the content uploaded by
@@ -30,14 +32,14 @@ function TermsDetail() {
           other users.
         </li>
       </ul>
-      <div>Age Restriction:</div>
+      <div className="font-oswald">Age Restriction:</div>
       <ul className="list-disc pl-6">
         <li>
           Our platform is intended for users who are 13 years of age or older.
           If you are under the age of 13, you may not use our platform.
         </li>
       </ul>
-      <div>Account Security:</div>
+      <div className="font-oswald">Account Security:</div>
       <ul className="list-disc pl-6">
         <li>
           You are responsible for maintaining the security of your account,
@@ -46,14 +48,14 @@ function TermsDetail() {
           notify us if you suspect that your account has been compromised.
         </li>
       </ul>
-      <div>Termination:</div>
+      <div className="font-oswald">Termination:</div>
       <ul className="list-disc pl-6">
         <li>
           We reserve the right to terminate your account or restrict your access
           to our platform at any time, for any reason, without notice.
         </li>
       </ul>
-      <div>Disclaimer of Warranties:</div>
+      <div className="font-oswald">Disclaimer of Warranties:</div>
       <ul className="list-disc pl-6">
         <li>
           Our platform is provided "as is," without warranty of any kind, either
@@ -69,7 +71,7 @@ function TermsDetail() {
           particular purpose.
         </li>
       </ul>
-      <div>Limitation of Liability:</div>
+      <div className="font-oswald">Limitation of Liability:</div>
       <ul className="list-disc pl-6">
         <li>
           Under no circumstances shall we be liable for any direct, indirect,
@@ -81,7 +83,7 @@ function TermsDetail() {
           of performance.
         </li>
       </ul>
-      <div>Intellectual Property:</div>
+      <div className="font-oswald">Intellectual Property:</div>
       <ul className="list-disc pl-6">
         <li>
           You acknowledge that our platform and all of its contents, including
@@ -92,7 +94,7 @@ function TermsDetail() {
           our intellectual property without our express written permission.
         </li>
       </ul>
-      <div>Indemnification:</div>
+      <div className="font-oswald">Indemnification:</div>
       <ul className="list-disc pl-6">
         <li>
           You agree to indemnify and hold us and our affiliates, officers,
@@ -102,7 +104,7 @@ function TermsDetail() {
           terms and conditions, or your violation of any rights of another.
         </li>
       </ul>
-      <div>Privacy Policy:</div>
+      <div className="font-oswald">Privacy Policy:</div>
       <ul className="list-disc pl-6">
         <li>
           We take your privacy seriously and have a privacy policy that governs
@@ -110,8 +112,10 @@ function TermsDetail() {
           using our platform, you agree to the terms of our privacy policy.
         </li>
       </ul>
-      <div className="text-sky-500">PRIVACY POLICY</div>
-      <div>Community Guidelines:</div>
+      <div className="text-sky-500">
+        <a href="/privacy-policy">PRIVACY POLICY</a>
+      </div>
+      <div className="font-oswald">Community Guidelines:</div>
       <ul className="list-disc pl-6">
         <li>
           You agree to our community guidelines, which serve to promote a safe,
@@ -123,8 +127,10 @@ function TermsDetail() {
           rights and dignity of others.
         </li>
       </ul>
-      <div className="text-sky-500">COMMUNITY GUIDELINES</div>
-      <div>User Conduct:</div>
+      <div className="text-sky-500">
+        <a href="/community-guidelines">COMMUNITY GUIDELINES</a>
+      </div>
+      <div className="font-oswald">User Conduct:</div>
       <ul className="list-disc pl-6">
         <li>
           You agree that you will not use our platform to engage in any unlawful
@@ -158,7 +164,7 @@ function TermsDetail() {
           </li>
         </ul>
       </ul>
-      <div>Notice of Copyright Infringement:</div>
+      <div className="font-oswald">Notice of Copyright Infringement:</div>
       <ul className="list-disc pl-6">
         <li>
           If you believe that your copyright has been infringed upon by any
@@ -195,7 +201,7 @@ function TermsDetail() {
           </li>
         </ul>
       </ul>
-      <div>How Our Service Is Funded:</div>
+      <div className="font-oswald">How Our Service Is Funded:</div>
       <ul className="list-disc pl-6">
         <li>
           At TokSot, we believe that access to our service should be free for
@@ -221,7 +227,7 @@ function TermsDetail() {
           interest to you.
         </li>
       </ul>
-      <div>Modification of Terms:</div>
+      <div className="font-oswald">Modification of Terms:</div>
       <ul className="list-disc pl-6">
         <li>
           We reserve the right to modify these terms at any time, without
@@ -229,7 +235,7 @@ function TermsDetail() {
           the modified terms on our platform.
         </li>
       </ul>
-      <div>Governing Law:</div>
+      <div className="font-oswald">Governing Law:</div>
       <ul className="list-disc pl-6">
         <li>
           These terms and conditions shall be governed by and construed in
@@ -238,7 +244,7 @@ function TermsDetail() {
           disputes arising out of or relating to your use of our platform.
         </li>
       </ul>
-      <div>Entire Agreement:</div>
+      <div className="font-oswald">Entire Agreement:</div>
       <ul className="list-disc pl-6">
         <li>
           These terms and conditions constitute the entire agreement between you
@@ -247,12 +253,14 @@ function TermsDetail() {
           remaining provisions shall remain in full force and effect.
         </li>
       </ul>
-      <div>Contact Information:</div>
+      <div className="font-oswald">Contact Information:</div>
       <ul className="list-disc pl-6">
         <li>
           If you have any questions or concerns about these terms and conditions
           or our platform, please contact us at{" "}
-          <span className="text-sky-500">“contact@toksot.com”.</span>
+          <a href="mailto:contact@toksot.com">
+            <span className="text-sky-500"> “contact@toksot.com”.</span>{" "}
+          </a>
         </li>
       </ul>
     </div>

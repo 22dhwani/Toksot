@@ -1,6 +1,6 @@
 function PausedDetail() {
   return (
-    <div className="lg:px-96 font-oswald font-medium tracking-wide xs:px-10 flex flex-col gap-6 pt-12">
+    <div className="lg:px-60 font-oswald-light tracking-normal xs:px-10 flex flex-col gap-6 pt-24">
       <div>
         TokSot reserves the right to temporarily pause any account that violates
         our community guidelines.
@@ -60,12 +60,17 @@ function PausedDetail() {
       </ul>
       <div>
         To gain a comprehensive understanding of our community guidelines, we
-        recommend reading our detailed guidelines.
+        recommend reading our detailed{" "}
+        <a href="/community-guidelines">
+          <span className="text-sky-500"> guidelines</span>.
+        </a>
       </div>
       <div>
         If you believe we have paused your account by mistake or you haven’t
         violated our community guidelines, you may contact us on
-        <span className="text-sky-500">contact@toksot.com</span>
+        <a href="mailto:contact@toksot.com">
+          <span className="text-sky-500"> contact@toksot.com</span>
+        </a>
       </div>
     </div>
   );
