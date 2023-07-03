@@ -19,12 +19,12 @@ function SectionSeven() {
         </div>
       </div>
       <div className="grid lg:grid-cols-6 xs:grid-cols-1 items-center lg:gap-10 xs:my-28">
-        <div className="flex flex-col xl:col-span-4 lg:col-span-3 gap-3 text-right xs:order-2 lg:order-1  lg:text-right sm:text-center">
+        <div className="flex flex-col xl:col-span-4 lg:col-span-3 gap-3 text-right xs:order-2 lg:order-1  lg:text-right sm:text-center ">
           <h4 className="font-oswald xs:text-lg lg:text-2xl">
             {" "}
             Places / Topics
           </h4>
-          <h1 className="font-oswald xl:text-[4.75rem] lg:text-5xl xs:text-5xl tracking-wide xl:leading-tight lg:leading-snug xs:leading-snug col-span-1 ">
+          <h1 className="font-oswald xl:text-[4.85rem] lg:text-5xl xs:text-5xl tracking-wide xl:leading-tight lg:leading-snug xs:leading-snug col-span-1 ">
             See photos, follow, and join in a chat room of any location or
             topic.
           </h1>
