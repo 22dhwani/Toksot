@@ -6,6 +6,16 @@ import logopack from "../../assets/presslogopack.svg";
 import packlogo from "../../assets/bottom-logo.svg";
 import { useState } from "react";
 
+import presspack1 from "../../assets/logo-pack/TokSot app logo 1.png";
+import presspack2 from "../../assets/logo-pack/TokSot font logo black.png";
+import presspack3 from "../../assets/logo-pack/TokSot font logo white.png";
+import presspack4 from "../../assets/logo-pack/TokSottrblack 1.png";
+import presspack5 from "../../assets/logo-pack/TokSottrblackempty 1.png";
+import presspack6 from "../../assets/logo-pack/TokSottrgreen 1.png";
+import presspack7 from "../../assets/logo-pack/TokSottrgreenempty 1.png";
+import presspack8 from "../../assets/logo-pack/TokSottrwhite 1.png";
+import presspack9 from "../../assets/logo-pack/TokSottrwhiteempty 1.png";
+
 function PressDetail() {
   const [check, setCheck] = useState(false);
   const handleDownloadClick = () => {
@@ -14,15 +24,15 @@ function PressDetail() {
 
     // Assuming you have an array of image URLs or base64-encoded data
     const imageUrls: any[] = [
-      "Toksot app logo 1.png",
-      "Toksot font logo black.png",
-      "Toksot font logo white.png",
-      "Toksottrblack 1.png",
-      "Toksottrblackempty 1.png",
-      "Toksottrgreen 1.png",
-      "Toksottrgreenempty 1.png",
-      "Toksottrwhite 1.png",
-      "Toksottrwhiteempty 1.png",
+      presspack1,
+      presspack2,
+      presspack3,
+      presspack4,
+      presspack5,
+      presspack6,
+      presspack7,
+      presspack8,
+      presspack9,
     ];
 
     // Fetch the images and add them to the zip folder
