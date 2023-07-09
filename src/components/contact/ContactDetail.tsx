@@ -10,7 +10,7 @@ function ContactDetail() {
         </a>
       </div>
       <div className="mt-10 ">We’ll make sure you get faster reply.</div>
-      <div className="flex flex-col gap-2">
+      <div className="flex flex-col gap-2 xs:pb-96 sm:pb-52 lg:pb-0">
         <div className="mt-20">More articles</div>
         <a href="/community-guidelines">
           <button className="flex flex-row items-center justify-between px-4 bg-[#F8F8F8] w-72 h-10 rounded-lg">
