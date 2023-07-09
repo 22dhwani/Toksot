@@ -33,7 +33,7 @@ const BottomBar = () => {
             </button>
           </div>
         </div>
-        <div className="md:hidden flex flex-row justify-between my-2 mt-6 px-2">
+        <div className="md:hidden flex flex-row justify-between my-2 mt-6 px-4 pb-4">
           <img src={year} alt="Year" className="mr-2 h-4" />
           <img src={logo} alt="Logo" className="mr-2 h-4" />
         </div>

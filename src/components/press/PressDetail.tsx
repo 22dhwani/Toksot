@@ -1,11 +1,7 @@
 import download from "../../assets/pressdownload.svg";
-// import { logoPack } from "../../assets/logo-pack";
-import JSZip from "jszip";
-import FileSaver from "file-saver";
 import logopack from "../../assets/presslogopack.svg";
 import packlogo from "../../assets/bottom-logo.svg";
 import { useState } from "react";
-
 import presspack1 from "../../assets/logo-pack/TokSot app logo 1.png";
 import presspack2 from "../../assets/logo-pack/TokSot font logo black.png";
 import presspack3 from "../../assets/logo-pack/TokSot font logo white.png";
@@ -19,9 +15,6 @@ import presspack9 from "../../assets/logo-pack/TokSottrwhiteempty 1.png";
 function PressDetail() {
   const [check, setCheck] = useState(false);
   const handleDownloadClick = () => {
-    const zip = new JSZip();
-    const folder = zip.folder("logo-pack");
-
     // Assuming you have an array of image URLs or base64-encoded data
     const imageUrls: any[] = [
       presspack1,
@@ -34,24 +27,13 @@ function PressDetail() {
       presspack8,
       presspack9,
     ];
-
-    // Fetch the images and add them to the zip folder
-    const fetchPromises = imageUrls.map((url) =>
-      fetch(url)
-        .then((response) => response.blob())
-        .then((blob) => {
-          const fileName = url.substring(url.lastIndexOf("/") + 1);
-          folder?.file(fileName, blob);
-        })
-    );
-
-    // Wait for all the images to be fetched and added to the zip folder
-    Promise.all(fetchPromises).then(() => {
-      // Generate the zip file
-      zip.generateAsync({ type: "blob" }).then((content) => {
-        // Save the zip file using FileSaver.js
-        FileSaver.saveAs(content, "images.zip");
-      });
+    imageUrls.forEach((url) => {
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = url.substring(url.lastIndexOf("/") + 1);
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+      link.click();
     });
   };
   return (
