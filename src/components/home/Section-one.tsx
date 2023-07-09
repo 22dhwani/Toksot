@@ -6,7 +6,7 @@ function SectionOne() {
   const os = getMobileOperatingSystem();
 
   return (
-    <section className="bg-black text-white lg:pt-14  xs:pt-6  lg:px-28 xl:px-36 xs:px-5 grid lg:grid-cols-2 xs:grid-cols-1 ">
+    <section className="bg-black text-white lg:pt-14  xs:pt-6  lg:px-28 xl:px-28 2xl:px-36 xs:px-5 grid lg:grid-cols-2 xs:grid-cols-1 ">
       <div className="w-full lg:py-12 xs:py-6 lg:text-left sm:text-center flex flex-col justify-between">
         <h1 className="font-oswald xl:text-[4.75rem] lg:text-[4rem] xs:text-5xl tracking-wide xl:leading-snug lg:leading-snug xs:leading-snug ">
           DO MORE WITH PHOTOS THAN JUST SHARING PHOTOS.

@@ -13,7 +13,7 @@ function SectionSeven() {
         </div>
         <div className="flex flex-col xl:col-span-4 lg:col-span-3 gap-3 lg:text-left sm:text-center lg:pt-2 xl:pt-10 2xl:pt-2 ">
           <h4 className="font-oswald xs:text-lg lg:text-2xl">Explore</h4>
-          <h1 className="font-oswald xl:text-[4.75rem] lg:text-5xl xs:text-5xl tracking-wide xl:leading-tight  lg:leading-snug xs:leading-snug col-span-1 ">
+          <h1 className="font-oswald xl:text-[4.5rem] lg:text-5xl xs:text-5xl tracking-wide xl:leading-tight  lg:leading-snug xs:leading-snug col-span-1 ">
             Explore endless photos of your interests.
           </h1>
         </div>
@@ -24,7 +24,7 @@ function SectionSeven() {
             {" "}
             Places / Topics
           </h4>
-          <h1 className="font-oswald xl:text-[4.75rem] lg:text-5xl xs:text-5xl tracking-wide xl:leading-tight lg:leading-snug xs:leading-snug ">
+          <h1 className="font-oswald xl:text-[4.5rem] lg:text-5xl xs:text-5xl tracking-wide xl:leading-tight lg:leading-snug xs:leading-snug ">
             See photos, follow, and join in a chat room of any location or
             topic.
           </h1>

@@ -11,7 +11,7 @@ function SectionSix() {
       <div className="xl:col-span-2 lg:col-span-3 xl:ml-0  sm:mx-auto">
         <img
           src={HeroImageseven}
-          className="sm:h-[670px] sm:w-[354px]  xs:w-full object-contain"
+          className="sm:h-[670px] xl:h-auto  2xl:h-[670px] sm:w-[354px]  xs:w-full object-contain"
         />
       </div>
     </section>

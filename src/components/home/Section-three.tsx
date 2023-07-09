@@ -13,7 +13,7 @@ function SectionThree() {
         </div>
         <div className="flex flex-col lg:col-span-3  xl:col-span-4 gap-3 lg:text-left sm:text-center lg:pt-2 xl:pt-10 2xl:pt-2">
           <h4 className="font-oswald xs:text-lg lg:text-2xl"> Super Tags</h4>
-          <h1 className="font-oswald xl:text-[4.75rem] lg:text-5xl xs:text-5xl tracking-wide xl:leading-tight lg:leading-snug xs:leading-snug xl:w-11/12 ">
+          <h1 className="font-oswald xl:text-[4.5rem] lg:text-5xl xs:text-5xl tracking-wide xl:leading-tight lg:leading-snug xs:leading-snug xl:w-11/12 ">
             Make various types of communication with the type of people you
             want.
           </h1>
@@ -22,7 +22,7 @@ function SectionThree() {
       <div className="grid lg:grid-cols-6 xs:grid-cols-1 items-center lg:gap-10 xs:my-28">
         <div className="flex flex-col xl:col-span-4 lg:col-span-3 gap-3 text-right xs:order-2 lg:order-1  lg:text-right sm:text-center lg:mt-24 xl:mt-10 2xl:mt-16 xl:pl-10">
           <h4 className="font-oswald xs:text-lg lg:text-2xl"> Inspire</h4>
-          <h1 className="font-oswald xl:text-[4.75rem] lg:text-5xl  xs:text-5xl tracking-wide xl:leading-tight lg:leading-snug xs:leading-snug ">
+          <h1 className="font-oswald xl:text-[4.5rem] lg:text-5xl  xs:text-5xl tracking-wide xl:leading-tight lg:leading-snug xs:leading-snug ">
             Reply with photos in others’ post inspiration threads.
           </h1>
         </div>

@@ -3,7 +3,7 @@ import Download from "../../assets/downloadd.svg";
 
 function Navbar() {
   return (
-    <div className="bg-black lg:py-6 mt-0 xs:py-4 lg:px-28 xl:px-36 xs:px-5 flex items-center sticky top-[-2px] w-full">
+    <div className="bg-black lg:py-6 mt-0 xs:py-4 lg:px-28 xl:px-28 2xl:px-36 xs:px-5 flex items-center sticky top-[-2px] w-full">
       <div className="flex flex-row lg:gap-5 xs:gap-3 xs:items-center">
         <img src={ToksotLogo} className="md:w-32 xs:w-32 object-contain" />
       </div>
