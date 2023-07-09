@@ -34,7 +34,7 @@ function Footer() {
         </div>
       </div>
       <div className="!w-full lg:py-16 xl:py-12 xs:pt-6 lg:pt-0  text-center">
-        <h1 className="font-oswald xl:text-9xl lg:text-8xl md:text-8xl xs:text-4xl tracking-wider lg:leading-tight xs:leading-snug text-center">
+        <h1 className="font-oswald xl:text-8xl 2xl:text-9xl lg:text-7xl md:text-8xl xs:text-4xl tracking-wider lg:leading-tight xs:leading-snug text-center  ">
           The everyday thing
         </h1>
       </div>

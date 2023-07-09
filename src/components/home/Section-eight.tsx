@@ -7,7 +7,7 @@ function SectionEight() {
   const os = getMobileOperatingSystem();
 
   return (
-    <section className="bg-primaryGreen text-white lg:pt-14  lg:pb-14 xs:pt-6 lg:px-28 xl:px-36 xs:px-5 grid lg:grid-cols-2 xs:grid-cols-1 ">
+    <section className="bg-primaryGreen text-white lg:pt-24  lg:pb-24 xs:pt-6 lg:px-28 xl:px-36 xs:px-5 grid lg:grid-cols-2 xs:grid-cols-1 ">
       <div className="w-full lg:py-12 xs:py-6 lg:text-left sm:text-center flex flex-col justify-between">
         <h1 className="font-oswald lg:text-[4.75rem] xs:text-5xl tracking-wide lg:leading-tight xs:leading-snug ">
           Ready to join TokSot ?
@@ -19,12 +19,12 @@ function SectionEight() {
           </div>
         )}
         {os === "iOS" && (
-          <div className="flex gap-5 my-10 xs:w-3/6 sm:mx-auto lg:mx-auto md:w-2/6 ">
+          <div className="flex gap-5 my-10 xs:w-3/6 sm:mx-auto lg:mx-0 md:w-2/6 ">
             <img src={AppleBadge} className="xs:w-full lg:w-max" />
           </div>
         )}
         {os === "Android" && (
-          <div className="flex gap-5 my-10 xs:w-3/6 sm:mx-auto md:w-2/6">
+          <div className="flex gap-5 my-10 xs:w-3/6 sm:mx-auto md:w-2/6 lg:mx-0">
             <img src={GoogleBadge} className="xs:w-full lg:w-max" />
           </div>
         )}
@@ -32,7 +32,7 @@ function SectionEight() {
       <div className="mx-auto xs:pb-10 lg:pb-0">
         <img
           src={ToksotLogo}
-          className="md:h-[500px]  md:w-[500px] xs:w-[400px] xs:h-[400px] object-contain"
+          className="md:h-[400px]  md:w-[400px] xs:w-[400px] xs:h-[400px] object-contain"
         />
       </div>
     </section>

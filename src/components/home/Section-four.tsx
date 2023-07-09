@@ -2,11 +2,11 @@ import HeroImagefour from "../../assets/hero-image-four.png";
 
 function SectionFour() {
   return (
-    <section className="bg-primaryBlue text-white lg:pt-40 xs:pt-24   lg:px-20 xl:px-28 xs:px-5 grid lg:grid-cols-6 xs:grid-cols-1 items-center">
+    <section className="bg-primaryBlue text-white lg:pt-40 xs:pt-24   lg:px-28 xl:px-28 xs:px-5 grid lg:grid-cols-6 xs:grid-cols-1 items-center xl:gap-8 2xl:gap-0">
       <div className="xl:col-span-2 xs:order-2 lg:order-1 lg:mx-0 xl:mx-auto sm:mx-auto lg:col-span-3">
         <img
           src={HeroImagefour}
-          className="sm:h-[670px] sm:w-[354px] xs:w-full object-contain"
+          className="sm:h-[670px] xl:h-auto  2xl:h-[670px] sm:w-[354px] xs:w-full object-contain"
         />
       </div>
       <div className="w-full lg:py-12 xs:py-6 xl:col-span-4 lg:col-span-3 lg:text-left sm:text-center xs:order-1 lg:order-2 lg:mx-auto ">
